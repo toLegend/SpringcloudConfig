@@ -1,6 +1,6 @@
 host: 192.168.0.1
 server:
-  port: 8083
+  port: 8082
 eureka:
   client:
     serviceUrl:
