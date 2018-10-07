@@ -6,9 +6,9 @@ server:
   port: 8084
 zuul:
   routes:
-    api-a:
+    api-b:
       path: /api-b/**
       serviceId: cms-budget
-    api-b:
+    api-s:
       path: /api-s/**
       serviceId: cms-setting
